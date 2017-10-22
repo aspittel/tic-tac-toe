@@ -95,12 +95,20 @@ function resetGame() {
     boxes.forEach(box => resetBox(box))
 }
 
+function disableAll () {
+    clicked = [
+        [true, true, true],
+        [true, true, true],
+        [true, true, true]
+    ]
+}
 
 function checkReset(x, y) {
     const winner = checkWin(x, y)
     if (winner || numMoves >= 9) {
         const message = winner ? `Congrats ${currentChip()} you win!` : `No winner!`
         turnDiv.innerHTML = message
+        disableAll()
         return true
     }
 }
