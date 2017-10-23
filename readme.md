@@ -13,3 +13,12 @@ This game is pretty simple - it uses just vanilla JS. The algorithm is more effi
 * HTML5
 * CSS
 * JavaScript
+
+## Deployment
+Game is deployed at aspittel.github.io/tic-tac-toe/
+
+## Local Installation
+```bash
+$ git clone https://github.com/aspittel/tic-tac-toe/
+$ hs
+```
