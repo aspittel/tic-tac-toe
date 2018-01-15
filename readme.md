@@ -15,7 +15,7 @@ This game is pretty simple - it uses just vanilla JS. The algorithm is more effi
 * JavaScript
 
 ## Deployment
-Game is deployed at aspittel.github.io/tic-tac-toe/
+Game is deployed at https://aspittel.github.io/tic-tac-toe/
 
 ## Local Installation
 ```bash
